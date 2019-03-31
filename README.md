@@ -8,3 +8,4 @@ Lessons and guided projects following Apple's [App Development with Swift](https
     3. [Operators](https://github.com/ketshaka/app-development-with-swift/tree/labs/1%20Getting%20Started/3%20Operators)
     4. [Control Flow](https://github.com/ketshaka/app-development-with-swift/tree/labs/1%20Getting%20Started/4%20Control%20Flow)
     6. [Debugging](https://github.com/ketshaka/app-development-with-swift/tree/labs/1%20Getting%20Started/6%20Debugging)
+    7. [Documentation](https://github.com/ketshaka/app-development-with-swift/tree/labs/1%20Getting%20Started/7%20Documentation)
