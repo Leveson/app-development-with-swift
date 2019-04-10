@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        updateUI()
     }
     
     @IBAction func buttonPressed(_ sender: Any) {
@@ -27,8 +28,10 @@ class ViewController: UIViewController {
     func updateUI() {
         if lightOn {
             view.backgroundColor = .white
+            lightButton.setTitle("Off", for: .normal)
         } else {
             view.backgroundColor = .black
+            lightButton.setTitle("On", for: .normal)
         }
     }
 
