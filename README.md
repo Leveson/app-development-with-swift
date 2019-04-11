@@ -9,3 +9,5 @@ Lessons and guided projects following Apple's [App Development with Swift](https
     4. [Control Flow](https://github.com/ketshaka/app-development-with-swift/tree/labs/1%20Getting%20Started/4%20Control%20Flow)
     6. [Debugging](https://github.com/ketshaka/app-development-with-swift/tree/labs/1%20Getting%20Started/6%20Debugging)
     7. [Documentation](https://github.com/ketshaka/app-development-with-swift/tree/labs/1%20Getting%20Started/7%20Documentation)
+2. Introduction to UIKit
+    1. [Strings](https://github.com/ketshaka/app-development-with-swift/tree/labs/2%20Introduction%20to%20UIKit/1%20Strings)
