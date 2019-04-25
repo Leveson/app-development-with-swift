@@ -11,3 +11,6 @@ Lessons and guided projects following Apple's [App Development with Swift](https
     7. [Documentation](https://github.com/ketshaka/app-development-with-swift/tree/labs/1%20Getting%20Started/7%20Documentation)
 2. Introduction to UIKit
     1. [Strings](https://github.com/ketshaka/app-development-with-swift/tree/labs/2%20Introduction%20to%20UIKit/1%20Strings)
+    2. [Functions](https://github.com/ketshaka/app-development-with-swift/tree/labs/2%20Introduction%20to%20UIKit/2%20Functions)
+    3. [Structures](https://github.com/ketshaka/app-development-with-swift/tree/labs/2%20Introduction%20to%20UIKit/3%20Structures)
+    4. [Classes and Inheritance](https://github.com/ketshaka/app-development-with-swift/tree/labs/2%20Introduction%20to%20UIKit/4%20Classes%20and%20Inheritance)
