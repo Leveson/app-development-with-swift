@@ -1,6 +1,6 @@
 # App Development with Swift
 
-![swift badge](https://img.shields.io/badge/swift-5-orange.svg) ![progress bar](https://img.shields.io/badge/progress-18%25-ff69b4.svg)
+![swift badge](https://img.shields.io/badge/swift-5-orange.svg) ![progress bar](https://img.shields.io/badge/progress-19%25-ff69b4.svg)
 
 Lessons and guided projects following Apple's [App Development with Swift](https://itunes.apple.com/za/book/app-development-with-swift/id1219117996?mt=11) book.
 
