@@ -17,3 +17,4 @@ Lessons and guided projects following Apple's [App Development with Swift](https
     5. [Collections](https://github.com/ketshaka/app-development-with-swift/tree/labs/2%20Introduction%20to%20UIKit/5%20-%20Collections)
     6. [Loops](https://github.com/ketshaka/app-development-with-swift/tree/labs/2%20Introduction%20to%20UIKit/6%20Loops)
     7. [Introduction to UIKit](https://github.com/ketshaka/app-development-with-swift/tree/labs/2%20Introduction%20to%20UIKit/7%20Introduction%20to%20UIKit)
+    8. [Displaying Data](https://github.com/ketshaka/app-development-with-swift/tree/labs/2%20Introduction%20to%20UIKit/8%20Displaying%20Data)
