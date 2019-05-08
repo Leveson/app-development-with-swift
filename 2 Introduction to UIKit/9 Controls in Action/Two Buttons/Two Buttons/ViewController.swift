@@ -18,10 +18,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func setTextButtonTapped(_ sender: Any) {
+    @IBAction func setTextButtonTapped(_ sender: UIButton) {
+        textLabel.text = textField.text
     }
     
-    @IBAction func clearTextButtonTapped(_ sender: Any) {
+    @IBAction func clearTextButtonTapped(_ sender: UIButton) {
+        textLabel.text = ""
     }
     
     
