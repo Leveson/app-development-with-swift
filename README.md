@@ -18,3 +18,5 @@ Lessons and guided projects following Apple's [App Development with Swift](https
     6. [Loops](https://github.com/ketshaka/app-development-with-swift/tree/labs/2%20Introduction%20to%20UIKit/6%20Loops)
     7. [Introduction to UIKit](https://github.com/ketshaka/app-development-with-swift/tree/labs/2%20Introduction%20to%20UIKit/7%20Introduction%20to%20UIKit)
     8. [Displaying Data](https://github.com/ketshaka/app-development-with-swift/tree/labs/2%20Introduction%20to%20UIKit/8%20Displaying%20Data)
+    9. [Controls in Action](https://github.com/ketshaka/app-development-with-swift/tree/labs/2%20Introduction%20to%20UIKit/9%20Controls%20in%20Action/Two%20Buttons)
+    10. [Auto Layout and Stack Views](https://github.com/ketshaka/app-development-with-swift/tree/labs/2%20Introduction%20to%20UIKit/10%20Auto%20Layout%20and%20Stack%20Views/Calculator)
