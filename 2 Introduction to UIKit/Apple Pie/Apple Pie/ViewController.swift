@@ -31,12 +31,16 @@ class ViewController: UIViewController {
     
     func newRound() {
         let newWord = listOfWords.removeFirst()
-        currentGame = Game(word: newWord, incorrectMovesRemaining: incorrectMovesAllowed)
+        currentGame = Game(word: newWord, incorrectMovesRemaining: incorrectMovesAllowed, guessedLetters: [])
         updateUI()
     }
     
-    @IBAction func buttonPressed(_ sender: UIButton) {
+    @IBAction func buttonTapped(_ sender: UIButton) {
         sender.isEnabled = false
+        let letterString = sender.title(for: .normal)!
+        let letter = Character(letterString.lowercased())
+        currentGame.playerGuessed(letter: letter)
+        updateUI()
     }
     
     func updateUI() {
