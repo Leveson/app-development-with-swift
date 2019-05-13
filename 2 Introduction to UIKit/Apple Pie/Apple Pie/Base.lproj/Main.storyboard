@@ -237,7 +237,6 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ybx-WW-xxz">
                                                 <rect key="frame" x="0.0" y="157" width="1024" height="31.5"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="60" id="Imi-Nh-i8r"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="eqw-Nr-5hN"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -248,7 +247,6 @@
                                                 <rect key="frame" x="0.0" y="188.5" width="1024" height="31.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="7EZ-ok-P71"/>
-                                                    <constraint firstAttribute="height" constant="44" id="Mf9-il-gMf"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <nil key="textColor"/>
