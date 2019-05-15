@@ -9,5 +9,30 @@ The `master` branch contains guided projects only, see the [`labs`](https://gith
 ## Projects
 ### 1 Light
 Single screen app that changes the screen from black to white whenever the user taps a button.
-- Highlights basic understanding of Xcode and
-- Interface Builder
+### 🦅 Swift Lessons
+- Introduction to Swift and Playgrounds
+- Constants, Variables and Data Types
+- Operators
+- Control Flow
+
+### 🔨 SDK Lessons
+- Xcode
+- Building, running and debugging an app 
+- Documentation
+- Interface Builder Basics
+
+### 2 Apple Pie
+Word guessing game for the iPad in the style of the classic Hangman.
+### 🦅 Swift Lessons
+- Strings
+- Functions
+- Structures
+- Classes and Inheritence
+- Collections
+- Loops
+
+### 🔨 SDK Lessons
+- Introduction to UIKit
+- Displaying Data
+- Controls in Action
+- Auto Layout and Stack Views
