@@ -9,30 +9,88 @@ The `master` branch contains guided projects only, see the [`labs`](https://gith
 ## Projects
 ### 1 Light
 Single screen app that changes the screen from black to white whenever the user taps a button.
-### 🦅 Swift Lessons
-- Introduction to Swift and Playgrounds
-- Constants, Variables and Data Types
-- Operators
-- Control Flow
 
-### 🔨 SDK Lessons
-- Xcode
-- Building, running and debugging an app 
-- Documentation
-- Interface Builder Basics
+<table>
+  <tr>
+    <th>🦅 Swift Lessons</th>
+    <th> Learning outcomes</th>
+  </tr>
+  <tr>
+    <td>Introduction to Swift and Playgrounds</td>
+  </tr>
+  <tr>
+    <td>Constants, Variables and Data Types</td>
+  </tr> 
+  <tr>
+    <td>Operators</td>
+  </tr>
+  <tr>
+    <td>Control Flow</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>🔨 SDK Lessons</th>
+    <th> Learning outcomes</th>
+  </tr>
+  <tr>
+    <td>Xcode</td>
+  </tr>
+  <tr>
+    <td>Building, running and debugging an app</td>
+  </tr> 
+  <tr>
+    <td>Documentation</td>
+  </tr>
+  <tr>
+    <td>Interface Builder Basics</td>
+  </tr>
+</table>
 
 ### 2 Apple Pie
 Word guessing game for the iPad in the style of the classic Hangman.
-### 🦅 Swift Lessons
-- Strings
-- Functions
-- Structures
-- Classes and Inheritence
-- Collections
-- Loops
 
-### 🔨 SDK Lessons
-- Introduction to UIKit
-- Displaying Data
-- Controls in Action
-- Auto Layout and Stack Views
+<table>
+  <tr>
+    <th>🔨 🦅 Swift Lessons</th>
+    <th> Learning outcomes</th>
+  </tr>
+  <tr>
+    <td>Strings</td>
+  </tr>
+  <tr>
+    <td>Functions</td>
+  </tr> 
+  <tr>
+    <td>Structures</td>
+  </tr>
+  <tr>
+    <td>Classes and Inheritence</td>
+  </tr>
+  <tr>
+    <td>Collections</td>
+  </tr>
+  <tr>
+    <td>Loops</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>🔨 SDK Lessons</th>
+    <th> Learning outcomes</th>
+  </tr>
+  <tr>
+    <td>Introduction to UIKit</td>
+  </tr>
+  <tr>
+    <td>Displaying Data</td>
+  </tr> 
+  <tr>
+    <td>Controls in Action</td>
+  </tr>
+  <tr>
+    <td>Auto Layout and Stack Views</td>
+  </tr>
+</table>
