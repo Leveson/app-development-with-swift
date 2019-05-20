@@ -17,6 +17,12 @@ Single screen app that changes the screen from black to white whenever the user 
   </tr>
   <tr>
     <td>Introduction to Swift and Playgrounds</td>
+    <td>
+        <ul>
+            <li>Learned about the features that make Swift a "safe" language such as <b>type safety</b>, <b>type inference</b>, <b>error handling</b> and <b>optionals</b>.</li>
+            <li>Demonstrated how to use playgrounds to run Swift code.</li>
+        </ul>
+    </td>
   </tr>
   <tr>
     <td>Constants, Variables and Data Types</td>
@@ -27,9 +33,6 @@ Single screen app that changes the screen from black to white whenever the user 
   <tr>
     <td>Control Flow</td>
   </tr>
-</table>
-
-<table>
   <tr>
     <th>🔨 SDK Lessons</th>
     <th> Learning outcomes</th>
@@ -74,9 +77,6 @@ Word guessing game for the iPad in the style of the classic Hangman.
   <tr>
     <td>Loops</td>
   </tr>
-</table>
-
-<table>
   <tr>
     <th>🔨 SDK Lessons</th>
     <th> Learning outcomes</th>
