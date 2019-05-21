@@ -20,7 +20,7 @@ Single screen app that changes the screen from black to white whenever the user 
   </tr>
   <tr>
     <td>Constants, Variables and Data Types</td>
-  </tr> 
+  </tr>
   <tr>
     <td>Operators</td>
   </tr>
@@ -39,7 +39,7 @@ Single screen app that changes the screen from black to white whenever the user 
   </tr>
   <tr>
     <td>Building, running and debugging an app</td>
-  </tr> 
+  </tr>
   <tr>
     <td>Documentation</td>
   </tr>
@@ -61,7 +61,7 @@ Word guessing game for the iPad in the style of the classic Hangman.
   </tr>
   <tr>
     <td>Functions</td>
-  </tr> 
+  </tr>
   <tr>
     <td>Structures</td>
   </tr>
@@ -86,7 +86,7 @@ Word guessing game for the iPad in the style of the classic Hangman.
   </tr>
   <tr>
     <td>Displaying Data</td>
-  </tr> 
+  </tr>
   <tr>
     <td>Controls in Action</td>
   </tr>
