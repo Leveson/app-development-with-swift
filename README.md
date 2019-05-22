@@ -18,12 +18,19 @@ Single screen app that changes the screen from black to white whenever the user 
     <td>
         <ul>
             <li>Learned about the features that make Swift a "safe" language such as <b>type safety</b>, <b>type inference</b>, <b>error handling</b> and <b>optionals</b>.</li>
-            <li>Demonstrated how to use playgrounds to run Swift code.</li>
+            <li>Used playgrounds to run Swift code.</li>
         </ul>
     </td>
   </tr>
   <tr>
     <td>Constants, Variables and Data Types</td>
+    <td>
+        <ul>
+            <li>Learned why most variables should be declared as constants.</li>
+            <li>Demonstrated how to specify the type for a variable or constant.</li>
+            <li>Showed how to format integer and float values for easier reading.</li>
+        </ul>
+    </td>
   </tr>
   <tr>
     <td>Operators</td>
