@@ -34,6 +34,12 @@ Single screen app that changes the screen from black to white whenever the user 
   </tr>
   <tr>
     <td>Operators</td>
+    <td>
+      <ul>
+        <li>Did basic mathematic operations using <code>+</code>, <code>-</code>, <code>×</code>, <code>÷</code> and most notably the remainder/modulo operator <code>%</code>.</li>
+        <li>Used <b>compound assignment operators</b> such as <code>+=</code>, <code>-=</code>, <code>*=</code> and <code>/=</code>.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td>Control Flow</td>
