@@ -43,6 +43,13 @@ Single screen app that changes the screen from black to white whenever the user 
   </tr>
   <tr>
     <td>Control Flow</td>
+    <td>
+      <ul>
+        <li>Combined <b>boolean expressions</b> with <b>logical operators</b> to convey some logic.</li>
+        <li>Used <b><code>switch</code> statements</b> to choose which code gets executed depending on the value of a single variable.</li>
+        <li>Learned how to use a <b>ternary operator</b> to conditionally assign different values to a constant or variable.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <th>🔨 SDK Lessons</th>
