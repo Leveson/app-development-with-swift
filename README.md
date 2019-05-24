@@ -5,7 +5,8 @@
 Labs and guided projects following Apple's [App Development with Swift](https://itunes.apple.com/za/book/app-development-with-swift/id1219117996?mt=11) book.
 
 ## Projects
-### 1 Light
+### [1 Light](1 Getting Started/Light)
+
 Single screen app that changes the screen from black to white whenever the user taps a button.
 
 <table>
