@@ -1,6 +1,6 @@
 # App Development with Swift
 
-![swift badge](https://img.shields.io/badge/swift-5-orange.svg) ![progress bar](https://img.shields.io/badge/progress-31%25-ff69b4.svg)
+![swift badge](https://img.shields.io/badge/swift-5-orange.svg) ![progress bar](https://img.shields.io/badge/progress-32%25-ff69b4.svg)
 
 Labs and guided projects following Apple's [App Development with Swift](https://itunes.apple.com/za/book/app-development-with-swift/id1219117996?mt=11) book.
 
@@ -57,12 +57,29 @@ Single screen app that changes the screen from black to white whenever the user 
   </tr>
   <tr>
     <td>Xcode</td>
+    <td>
+      <ul>
+        <li>Learned how to use the <b>project navigator</b>, <b>debug area</b>, <b>assistant editor</b> and <b>version editor</b>.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td>Building, running and debugging an app</td>
+    <td>
+      <ul>
+        <li>Learned how to run apps using Simulator within the Xcode environment and with a physical device.</li>
+        <li>Performed basic debugging using breakpoints.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td>Documentation</td>
+    <td>
+      <ul>
+        <li>Used the documentation browser.</li>
+        <li>Learned how to find sample code and framework guides.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td>Interface Builder Basics</td>
