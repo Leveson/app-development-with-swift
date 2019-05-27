@@ -76,8 +76,8 @@ Single screen app that changes the screen from black to white whenever the user 
     <td>Documentation</td>
     <td>
       <ul>
-        <li>Used the documentation browser.</li>
-        <li>Learned how to find sample code and framework guides.</li>
+        <li>Used the documentation browser to look at overviews, symbol descriptions and discussions.</li>
+        <li>Used resources on the Apple Developer website to find sample code and framework guides.</li>
       </ul>
     </td>
   </tr>
@@ -102,6 +102,15 @@ Word guessing game for the iPad in the style of the classic Hangman.
   </tr>
   <tr>
     <td>Structures</td>
+    <td>
+      <ul>
+        <li>Learned about the role of <b>structures</b> in Swift and how to create one with multiple <b>instance methods</b>.</li>
+        <li>Learned the difference between an <b>instance</b> and a <b>type</b>.</li>
+        <li>Demonstrated how to create custom initialisers for a structure.</li>
+        <li>Showed how create a <b>computed property</b>.</li>
+        <li>Created a structure with a <b>type method</b>.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td>Classes and Inheritence</td>
