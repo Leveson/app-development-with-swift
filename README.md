@@ -83,6 +83,14 @@ Single screen app that changes the screen from black to white whenever the user 
   </tr>
   <tr>
     <td>Interface Builder Basics</td>
+    <td>
+      <ul>
+        <li>Saw the purpose of the <b>initial view controller</b> in a storyboard.</li>
+        <li>Descibed the role of the <b>document outline</b>.</li>
+        <li>Demonstrated how to create an <code>IBOutlet</code> and an <code>IBAction</code> using the <b>assistant editor</b>.</li>
+        <li>Explained the differences between the <b>identity inspector</b>, <b>attributes inspector</b>, <b>size inspector</b> and the <b>object library</b> to build basic user interfaces.</li>
+      </ul>
+    </td>
   </tr>
 </table>
 
@@ -96,9 +104,23 @@ Word guessing game for the iPad in the style of the classic Hangman.
   </tr>
   <tr>
     <td>Strings</td>
+    <td>
+      <ul>
+        <li>Did string comparisons.</li>
+        <li>Used <b>string interpolation</b> to create a complex variable string.</li>
+        <li>Used numerous methods included in Swift as part of the string class such as <code>uppercase()</code> and <code>lowercase()</code>.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td>Functions</td>
+    <td>
+      <ul>
+        <li>Built functions with and without return types.</li>
+        <li>Constructed functions with multiple named arguments and default values.</li>
+        <li>Demonstrated how to specify <b>external names</b> for function parameters.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td>Structures</td>
