@@ -1,6 +1,6 @@
 # App Development with Swift
 
-![swift badge](https://img.shields.io/badge/swift-5-orange.svg) ![progress bar](https://img.shields.io/badge/progress-33%25-ff69b4.svg)
+![swift badge](https://img.shields.io/badge/swift-5-orange.svg) ![progress bar](https://img.shields.io/badge/progress-35%25-ff69b4.svg)
 
 Labs and guided projects following Apple's [App Development with Swift](https://itunes.apple.com/za/book/app-development-with-swift/id1219117996?mt=11) book.
 
@@ -86,7 +86,7 @@ Single screen app that changes the screen from black to white whenever the user 
     <td>
       <ul>
         <li>Saw the purpose of the <b>initial view controller</b> in a storyboard.</li>
-        <li>Descibed the role of the <b>document outline</b>.</li>
+        <li>Described the role of the <b>document outline</b>.</li>
         <li>Demonstrated how to create an <code>IBOutlet</code> and an <code>IBAction</code> using the <b>assistant editor</b>.</li>
         <li>Explained the differences between the <b>identity inspector</b>, <b>attributes inspector</b>, <b>size inspector</b> and the <b>object library</b> to build basic user interfaces.</li>
       </ul>
@@ -135,7 +135,16 @@ Word guessing game for the iPad in the style of the classic Hangman.
     </td>
   </tr>
   <tr>
-    <td>Classes and Inheritence</td>
+    <td>Classes and Inheritance</td>
+    <td>
+      <ul>
+        <li>Outlined the difference between a structure and a class.</li>
+        <li>Learned the concept and importance of <b>inheritance</b>.</li>
+        <li>Used classes to manage complex state in an application</li>
+        <li>Demonstrated how to call a <b>superclass</b>'s properties or methods.</li>
+        <li>Showed how to <b>override</b> methods from a superclass.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td>Collections</td>
