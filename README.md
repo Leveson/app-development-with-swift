@@ -148,9 +148,21 @@ Word guessing game for the iPad in the style of the classic Hangman.
   </tr>
   <tr>
     <td>Collections</td>
+    <td>
+      <ul>
+        <li>Described the difference between <code>let</code> and <code>var</code> when using collection types.</li>
+        <li>Learned how to add and remove values from <b>arrays</b> and <b>dictionaries</b>.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td>Loops</td>
+    <td>
+      <ul>
+        <li>Demonstrated how to write a <code>for</code> loop to iterate over a <b>range</b> or collection.</li>
+        <li>Showed how to write  a <code>while</code> loop.</li>
+      </ul>    
+    </td>
   </tr>
   <tr>
     <th>🔨 SDK Lessons</th>
@@ -158,12 +170,32 @@ Word guessing game for the iPad in the style of the classic Hangman.
   </tr>
   <tr>
     <td>Introduction to UIKit</td>
+    <td>
+      <ul>
+        <li>Learned about the standard controls included in the iOS SDK made available in a framework known as <code>UIKit</code>.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td>Displaying Data</td>
+    <td>
+      <ul>
+        <li>Showed how to configure views using Inferface Builder.</li>
+        <li>Demonstrated how to set a <b>label</b>'s text, font, colour and other properties.</li>
+        <li>Learned how to set the <b>content mode</b> for an image view.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td>Controls in Action</td>
+    <td>
+      <ul>
+        <li>Learned how to use a <b>button</b>, <b>switch</b>,  and <b>slider</b> to execute code.</li>
+        <li>Learned how to access the value of a switch, slider and <b>text field</b>.</li>
+        <li>Learned how to respond to user interactions with gesture recognisers.</li>
+        <li>Learned how to connect <b>controls</b> to <b>actions</b> programmatically.</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td>Auto Layout and Stack Views</td>
