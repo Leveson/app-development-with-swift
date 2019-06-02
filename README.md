@@ -1,6 +1,6 @@
 # App Development with Swift
 
-![swift badge](https://img.shields.io/badge/swift-5-orange.svg) ![progress bar](https://img.shields.io/badge/progress-35%25-ff69b4.svg)
+![swift badge](https://img.shields.io/badge/swift-5-orange.svg) ![progress bar](https://img.shields.io/badge/progress-37%25-ff69b4.svg)
 
 Labs and guided projects following Apple's [App Development with Swift](https://itunes.apple.com/za/book/app-development-with-swift/id1219117996?mt=11) book.
 
@@ -180,7 +180,7 @@ Word guessing game for the iPad in the style of the classic Hangman.
     <td>Displaying Data</td>
     <td>
       <ul>
-        <li>Showed how to configure views using Inferface Builder.</li>
+        <li>Showed how to configure views using Interface Builder.</li>
         <li>Demonstrated how to set a <b>label</b>'s text, font, colour and other properties.</li>
         <li>Learned how to set the <b>content mode</b> for an image view.</li>
       </ul>
@@ -199,5 +199,12 @@ Word guessing game for the iPad in the style of the classic Hangman.
   </tr>
   <tr>
     <td>Auto Layout and Stack Views</td>
+    <td>
+      <ul>
+        <li>Described the <b>Auto Layout</b> system for constraining views as they relate to other views.</li>
+        <li>Demostrated how to add constraints to a view.</li>
+        <li>Showed how to use <b>stack view</b> to help manage constraints.</li>
+      </ul>
+    </td>
   </tr>
 </table>
