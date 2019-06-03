@@ -18,16 +18,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WAG-sS-FTw">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WAG-sS-FTw">
                                 <rect key="frame" x="128" y="433" width="158" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Show me the life cycle."/>
                                 <connections>
-                                    <segue destination="IVE-g1-cg6" kind="show" id="mUM-If-zb3"/>
+                                    <segue destination="IVE-g1-cg6" kind="show" id="y4G-Bm-Q55"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WAG-sS-FTw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ucZ-05-mqk"/>
+                            <constraint firstItem="WAG-sS-FTw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="z3l-Vc-ofV"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="pO8-2L-cbD"/>
@@ -44,27 +47,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYX-TY-uZM">
-                                <rect key="frame" x="164" y="614" width="87" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next screen."/>
-                                <connections>
-                                    <segue destination="ph1-Ow-fNN" kind="show" id="vfI-Tr-bin"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nothing has happened yet." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ms-Fz-ssu">
-                                <rect key="frame" x="104" y="143" width="207" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nothing has happened yet." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hkJ-WU-zdi">
+                                <rect key="frame" x="104" y="438" width="206.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYX-TY-uZM">
+                                <rect key="frame" x="163.5" y="802" width="87" height="30"/>
+                                <state key="normal" title="Next screen."/>
+                                <connections>
+                                    <segue destination="ph1-Ow-fNN" kind="show" id="mcm-zC-ZUw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iV5-9l-y9u" firstAttribute="bottom" secondItem="uYX-TY-uZM" secondAttribute="bottom" constant="30" id="WfQ-H8-qtw"/>
+                            <constraint firstItem="hkJ-WU-zdi" firstAttribute="centerY" secondItem="Qrc-tX-DD5" secondAttribute="centerY" id="Y2c-Lp-njF"/>
+                            <constraint firstItem="hkJ-WU-zdi" firstAttribute="centerX" secondItem="Qrc-tX-DD5" secondAttribute="centerX" id="ZQQ-V6-sqL"/>
+                            <constraint firstItem="uYX-TY-uZM" firstAttribute="centerX" secondItem="Qrc-tX-DD5" secondAttribute="centerX" id="kN7-9v-egt"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="iV5-9l-y9u"/>
                     </view>
                     <connections>
-                        <outlet property="middleViewControllerLabel" destination="4ms-Fz-ssu" id="OXE-tK-Bie"/>
+                        <outlet property="middleViewControllerLabel" destination="hkJ-WU-zdi" id="kMa-ei-BaT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aK6-bE-o4q" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -79,15 +86,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Go back and see if anything happened." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="skq-3f-0Xy">
-                                <rect key="frame" x="58" y="438" width="299" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Go back and see if anything happened." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="skq-3f-0Xy">
+                                <rect key="frame" x="57.5" y="437.5" width="299" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="skq-3f-0Xy" firstAttribute="centerY" secondItem="Zv1-Qe-yyU" secondAttribute="centerY" id="QPd-wU-xoi"/>
+                            <constraint firstItem="skq-3f-0Xy" firstAttribute="centerX" secondItem="Zv1-Qe-yyU" secondAttribute="centerX" id="jKj-Jz-Sle"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ABL-kL-QtM"/>
                     </view>
                 </viewController>
