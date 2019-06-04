@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Profile-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,21 +18,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="pMT-lC-M1L">
-                                <rect key="frame" x="87" y="129" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brunelleschi-statue" translatesAutoresizingMaskIntoConstraints="NO" id="pMT-lC-M1L">
+                                <rect key="frame" x="0.0" y="140" width="414" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="ed6-3q-gd5"/>
+                                </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filippo Brunelleschi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TlP-qZ-NWZ">
+                                <rect key="frame" x="82" y="74" width="250" height="36"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5M-hm-U0M">
+                                <rect key="frame" x="20" y="410" width="374" height="394.5"/>
+                                <mutableString key="text">Filippo Brunelleschi (/ˌbruːnəˈlɛski/ BROO-nə-LESK-ee, Italian: [fiˈlippo brunelˈleski]; 1377 – April 15, 1446), considered to be a founding father of Renaissance architecture, was an Italian architect and designer, recognized to be the first modern engineer, planner, and sole construction supervisor. He is most famous for designing the dome of the Florence Cathedral, a feat of engineering that had not been accomplished since antiquity, as well as the development of the mathematical technique of linear perspective in art which governed pictorial depictions of space until the late 19th century and influenced the rise of modern science. His accomplishments also include other architectural works, sculpture, mathematics, engineering, and ship design. His principal surviving works can be found in Florence, Italy.</mutableString>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="K5M-hm-U0M" secondAttribute="trailing" constant="20" id="BaX-Id-4KS"/>
+                            <constraint firstItem="K5M-hm-U0M" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="GYU-f1-su9"/>
+                            <constraint firstItem="TlP-qZ-NWZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MUX-ZP-NxZ"/>
+                            <constraint firstItem="pMT-lC-M1L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fNu-0b-wtL"/>
+                            <constraint firstItem="K5M-hm-U0M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="j8y-L1-TIf"/>
+                            <constraint firstItem="TlP-qZ-NWZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="kjf-cU-ehM"/>
+                            <constraint firstItem="pMT-lC-M1L" firstAttribute="top" secondItem="TlP-qZ-NWZ" secondAttribute="bottom" constant="30" id="mOP-t7-jn2"/>
+                            <constraint firstItem="pMT-lC-M1L" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qHw-ur-n0R"/>
+                            <constraint firstItem="K5M-hm-U0M" firstAttribute="top" secondItem="pMT-lC-M1L" secondAttribute="bottom" constant="20" id="rIk-fd-7s1"/>
+                            <constraint firstAttribute="trailing" secondItem="pMT-lC-M1L" secondAttribute="trailing" id="zVT-th-jEF"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="featured" id="O8q-9h-Jny"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="round_account_circle_black_24pt_3x" id="O8q-9h-Jny"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-804" y="773"/>
+            <point key="canvasLocation" x="-804.34782608695662" y="772.76785714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--Commissions-->
         <scene sceneID="c6G-C4-LXw">
             <objects>
                 <viewController id="b7M-iI-5i5" sceneMemberID="viewController">
@@ -40,21 +66,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="boom" translatesAutoresizingMaskIntoConstraints="NO" id="V83-gT-6Vx">
-                                <rect key="frame" x="87" y="156" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Brunelleshi-and-Duomo-of-Florence" translatesAutoresizingMaskIntoConstraints="NO" id="V83-gT-6Vx">
+                                <rect key="frame" x="0.0" y="140" width="414" height="232"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Florence Cathedral dome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6CO-sT-uIr">
+                                <rect key="frame" x="20" y="74" width="374" height="36"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUr-h7-ynV">
+                                <rect key="frame" x="20" y="392" width="374" height="372.5"/>
+                                <mutableString key="text">Santa Maria del Fiore was the new cathedral of the city, and by 1418, the dome had yet to be defined. When the building was designed, no one had any idea how such a dome was to be built. It was to be even larger than the Pantheon's dome in Rome; no dome of that size had been built since antiquity. Since buttresses were forbidden by the city fathers, and because obtaining rafters for scaffolding long and strong enough (and in sufficient quantity) for the task was impossible, how a dome of that size could be constructed without it collapsing under its own weight was unclear. Furthermore, the stresses of compression were not clearly understood, and the mortars used in the period would set only after several days, keeping the strain on the scaffolding for a long time.</mutableString>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="frB-Q3-hdQ" firstAttribute="trailing" secondItem="6CO-sT-uIr" secondAttribute="trailing" constant="20" id="FgI-75-ieo"/>
+                            <constraint firstItem="6CO-sT-uIr" firstAttribute="leading" secondItem="frB-Q3-hdQ" secondAttribute="leading" constant="20" id="LKf-7T-n8r"/>
+                            <constraint firstItem="cUr-h7-ynV" firstAttribute="top" secondItem="V83-gT-6Vx" secondAttribute="bottom" constant="20" id="PPF-zs-o7b"/>
+                            <constraint firstItem="V83-gT-6Vx" firstAttribute="top" secondItem="6CO-sT-uIr" secondAttribute="bottom" constant="30" id="Sl7-Rr-nHq"/>
+                            <constraint firstItem="cUr-h7-ynV" firstAttribute="centerX" secondItem="kjn-22-paG" secondAttribute="centerX" id="Whf-lz-G9G"/>
+                            <constraint firstAttribute="trailing" secondItem="cUr-h7-ynV" secondAttribute="trailing" constant="20" id="hnZ-G2-Npa"/>
+                            <constraint firstItem="6CO-sT-uIr" firstAttribute="centerX" secondItem="kjn-22-paG" secondAttribute="centerX" id="j1O-hx-zzG"/>
+                            <constraint firstItem="cUr-h7-ynV" firstAttribute="leading" secondItem="kjn-22-paG" secondAttribute="leading" constant="20" id="k3d-j7-3B6"/>
+                            <constraint firstItem="V83-gT-6Vx" firstAttribute="centerX" secondItem="kjn-22-paG" secondAttribute="centerX" id="kzW-vf-OE8"/>
+                            <constraint firstItem="6CO-sT-uIr" firstAttribute="top" secondItem="frB-Q3-hdQ" secondAttribute="top" constant="30" id="opZ-Fs-zGd"/>
+                            <constraint firstItem="frB-Q3-hdQ" firstAttribute="trailing" secondItem="V83-gT-6Vx" secondAttribute="trailing" id="qOV-m4-aSI"/>
+                            <constraint firstItem="V83-gT-6Vx" firstAttribute="leading" secondItem="frB-Q3-hdQ" secondAttribute="leading" id="vlk-Ir-p4b"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="frB-Q3-hdQ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="recents" id="s5o-yn-ECa"/>
+                    <tabBarItem key="tabBarItem" title="Commissions" image="round_account_balance_black_24pt_1x" selectedImage="round_account_balance_black_24pt_1x" id="s5o-yn-ECa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R7a-ik-WK5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="135" y="773"/>
+            <point key="canvasLocation" x="134.78260869565219" y="772.76785714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--Linear Perspective-->
         <scene sceneID="1nq-Jc-nOR">
             <objects>
                 <viewController id="skM-dC-FHJ" sceneMemberID="viewController">
@@ -62,15 +114,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cas" translatesAutoresizingMaskIntoConstraints="NO" id="kto-mv-eTP">
-                                <rect key="frame" x="87" y="132" width="240" height="407"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Brunelleschi's_perspective_experiment" translatesAutoresizingMaskIntoConstraints="NO" id="kto-mv-eTP">
+                                <rect key="frame" x="0.0" y="140" width="414" height="262"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OAl-dw-Dwh">
+                                <rect key="frame" x="20" y="422" width="374" height="372.5"/>
+                                <mutableString key="text">Besides his accomplishments in architecture, Brunelleschi is also credited as the first person recognizing one-point linear perspective which revolutionised painting and paved the way for naturalistic styles to develop as the Renaissance digressed from the stylised figures of medieval art.
+
+Brunelleschi made two panel paintings illustrating geometric optical linear perspective in the early 15th century. His biographer, Antonio Manetti, described this experiment in which Brunelleschi painted two panels: the first being the Florentine Baptistery as viewed frontally from the western portal of the unfinished cathedral, the other one is the Palazzo Vecchio seen obliquely from its northwest corner.</mutableString>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Linear perspective" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vbc-gh-lf9">
+                                <rect key="frame" x="20" y="74" width="374" height="36"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.45085787770000002" green="0.98829740290000001" blue="0.83763033149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="o4I-tT-hJF" firstAttribute="trailing" secondItem="Vbc-gh-lf9" secondAttribute="trailing" constant="20" id="376-LA-AH8"/>
+                            <constraint firstItem="kto-mv-eTP" firstAttribute="leading" secondItem="o4I-tT-hJF" secondAttribute="leading" id="4Uu-Q8-iUy"/>
+                            <constraint firstItem="OAl-dw-Dwh" firstAttribute="leading" secondItem="4ld-dg-06W" secondAttribute="leading" constant="20" id="6mv-8S-DYg"/>
+                            <constraint firstItem="Vbc-gh-lf9" firstAttribute="leading" secondItem="o4I-tT-hJF" secondAttribute="leading" constant="20" id="JE9-Mh-HJ3"/>
+                            <constraint firstItem="Vbc-gh-lf9" firstAttribute="top" secondItem="o4I-tT-hJF" secondAttribute="top" constant="30" id="N5s-qk-Gcb"/>
+                            <constraint firstItem="o4I-tT-hJF" firstAttribute="trailing" secondItem="kto-mv-eTP" secondAttribute="trailing" id="NC2-jC-ERm"/>
+                            <constraint firstItem="kto-mv-eTP" firstAttribute="top" secondItem="Vbc-gh-lf9" secondAttribute="bottom" constant="30" id="PeT-8X-tXH"/>
+                            <constraint firstItem="kto-mv-eTP" firstAttribute="centerX" secondItem="4ld-dg-06W" secondAttribute="centerX" id="dkf-Ne-xhH"/>
+                            <constraint firstAttribute="trailing" secondItem="OAl-dw-Dwh" secondAttribute="trailing" constant="20" id="f8n-l7-hSn"/>
+                            <constraint firstItem="OAl-dw-Dwh" firstAttribute="centerX" secondItem="4ld-dg-06W" secondAttribute="centerX" id="hqs-ow-GMR"/>
+                            <constraint firstItem="Vbc-gh-lf9" firstAttribute="centerX" secondItem="4ld-dg-06W" secondAttribute="centerX" id="m3q-7q-4LS"/>
+                            <constraint firstItem="OAl-dw-Dwh" firstAttribute="top" secondItem="kto-mv-eTP" secondAttribute="bottom" constant="20" id="oRi-cP-PEN"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="o4I-tT-hJF"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="contacts" id="oNG-MC-hVA"/>
+                    <tabBarItem key="tabBarItem" title="Linear Perspective" image="round_create_black_24pt_1x" id="oNG-MC-hVA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mxr-JO-ajj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -82,6 +162,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="GTd-PZ-xyY" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CNw-Ff-tyl">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -97,8 +178,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="boom" width="1920" height="1200"/>
-        <image name="cas" width="1060" height="1920"/>
-        <image name="skull" width="1920" height="1875"/>
+        <image name="Brunelleschi's_perspective_experiment" width="361" height="262"/>
+        <image name="Brunelleshi-and-Duomo-of-Florence" width="179" height="232"/>
+        <image name="brunelleschi-statue" width="985" height="556"/>
+        <image name="round_account_balance_black_24pt_1x" width="24" height="24"/>
+        <image name="round_account_circle_black_24pt_3x" width="24" height="24"/>
+        <image name="round_create_black_24pt_1x" width="24" height="24"/>
     </resources>
 </document>
