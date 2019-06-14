@@ -82,7 +82,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uJt-Sg-fLy">
-                                <rect key="frame" x="0.0" y="817" width="414" height="49"/>
+                                <rect key="frame" x="0.0" y="816" width="414" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="PhC-oS-cMU"/>
+                                </constraints>
                                 <items>
                                     <barButtonItem systemItem="action" id="JZs-SC-zlW">
                                         <connections>
@@ -97,7 +100,7 @@
                             <constraint firstItem="tek-Sd-dSI" firstAttribute="leading" secondItem="VZO-bn-IWp" secondAttribute="leadingMargin" id="1Uh-HA-mdH"/>
                             <constraint firstItem="uJt-Sg-fLy" firstAttribute="leading" secondItem="GGi-Pv-sON" secondAttribute="leading" id="52I-Vd-NDT"/>
                             <constraint firstItem="vuK-8P-mNL" firstAttribute="leading" secondItem="VZO-bn-IWp" secondAttribute="leadingMargin" id="8NX-Ji-TpV"/>
-                            <constraint firstAttribute="bottom" secondItem="uJt-Sg-fLy" secondAttribute="bottom" constant="30" id="BOu-KE-oZo"/>
+                            <constraint firstAttribute="bottom" secondItem="uJt-Sg-fLy" secondAttribute="bottom" id="BOu-KE-oZo"/>
                             <constraint firstItem="vuK-8P-mNL" firstAttribute="top" secondItem="GGi-Pv-sON" secondAttribute="top" symbolic="YES" id="I6h-MZ-cFF"/>
                             <constraint firstItem="GGi-Pv-sON" firstAttribute="trailing" secondItem="uJt-Sg-fLy" secondAttribute="trailing" id="MLm-BF-FbO"/>
                             <constraint firstItem="vuK-8P-mNL" firstAttribute="trailing" secondItem="VZO-bn-IWp" secondAttribute="trailingMargin" id="Nxx-Lp-bO3"/>
