@@ -25,6 +25,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="aes-TK-2SR" kind="presentation" identifier="EditToDo" id="R2d-v2-mu2"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -36,7 +39,7 @@
                         <barButtonItem key="leftBarButtonItem" title="Item" id="NfQ-Q6-a5z"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="6Wa-1c-OUe">
                             <connections>
-                                <segue destination="aes-TK-2SR" kind="presentation" id="HRe-Og-2CD"/>
+                                <segue destination="aes-TK-2SR" kind="presentation" identifier="" id="HRe-Og-2CD"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -243,4 +246,7 @@
         <image name="Checked" width="44" height="44"/>
         <image name="Unchecked" width="44" height="44"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="R2d-v2-mu2"/>
+    </inferredMetricsTieBreakers>
 </document>
