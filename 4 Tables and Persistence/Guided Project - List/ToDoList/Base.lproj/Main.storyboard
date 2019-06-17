@@ -174,18 +174,6 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection id="djF-Z0-hZD">
-                                <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="9Xl-Ga-ydH">
-                                        <rect key="frame" x="0.0" y="515.5" width="414" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9Xl-Ga-ydH" id="KB4-ou-XLj">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="aAH-UT-8M8" id="LG8-sz-uOi"/>
@@ -195,12 +183,12 @@
                     <navigationItem key="navigationItem" title="New ToDo" id="MWk-8w-hgW">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="oJh-NZ-UnD">
                             <connections>
-                                <segue destination="AL5-Rg-Kn9" kind="unwind" identifier="saveUnwind" unwindAction="unwindToDoListWithSegue:" id="YvB-dT-ZD8"/>
+                                <segue destination="AL5-Rg-Kn9" kind="unwind" unwindAction="unwindToDoListWithSegue:" id="hqu-fn-aXl"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="1Q4-HB-Zjk">
                             <connections>
-                                <segue destination="AL5-Rg-Kn9" kind="unwind" unwindAction="unwindToDoListWithSegue:" id="Q4u-gm-xFw"/>
+                                <segue destination="AL5-Rg-Kn9" kind="unwind" identifier="saveUnwind" unwindAction="unwindToDoListWithSegue:" id="yre-f1-Y5f"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
