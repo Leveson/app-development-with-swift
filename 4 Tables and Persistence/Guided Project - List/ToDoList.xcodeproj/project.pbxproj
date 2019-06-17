@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED36420E22B7A09100251E5A /* ToDoDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED36420D22B7A09100251E5A /* ToDoDetailTableViewController.swift */; };
 		EDCD3F6722B684FD00DE3493 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCD3F6622B684FD00DE3493 /* ToDo.swift */; };
 		EDCD3F6922B685CB00DE3493 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCD3F6822B685CB00DE3493 /* ToDoTableViewController.swift */; };
 		EDE21E4B22B6811F00FC41A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE21E4A22B6811F00FC41A3 /* AppDelegate.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED36420D22B7A09100251E5A /* ToDoDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailTableViewController.swift; sourceTree = "<group>"; };
 		EDCD3F6622B684FD00DE3493 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		EDCD3F6822B685CB00DE3493 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		EDE21E4722B6811F00FC41A3 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +65,7 @@
 				EDE21E5622B6812000FC41A3 /* Info.plist */,
 				EDCD3F6622B684FD00DE3493 /* ToDo.swift */,
 				EDCD3F6822B685CB00DE3493 /* ToDoTableViewController.swift */,
+				ED36420D22B7A09100251E5A /* ToDoDetailTableViewController.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				EDE21E4B22B6811F00FC41A3 /* AppDelegate.swift in Sources */,
 				EDCD3F6922B685CB00DE3493 /* ToDoTableViewController.swift in Sources */,
+				ED36420E22B7A09100251E5A /* ToDoDetailTableViewController.swift in Sources */,
 				EDCD3F6722B684FD00DE3493 /* ToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
