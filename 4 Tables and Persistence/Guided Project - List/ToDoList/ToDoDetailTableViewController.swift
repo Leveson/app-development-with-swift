@@ -9,7 +9,7 @@
 import UIKit
 
 class ToDoDetailTableViewController: UITableViewController {
-
+    
     @IBOutlet weak var titleTextField: UITextField!
     @IBOutlet weak var isCompleteButton: UIButton!
     @IBOutlet weak var dueDateLabel: UILabel!
@@ -103,5 +103,4 @@ class ToDoDetailTableViewController: UITableViewController {
     func updateDueDateLabel(date: Date) {
         dueDateLabel.text = ToDo.dueDateFormatter.string(from: date)
     }
-
 }

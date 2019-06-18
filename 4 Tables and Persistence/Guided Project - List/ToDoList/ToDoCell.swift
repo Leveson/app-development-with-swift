@@ -22,15 +22,4 @@ class ToDoCell: UITableViewCell {
     @IBAction func completeButtonTapped(_ sender: Any) {
         delegate?.chechmarkTapped(sender: self)
     }
-
-//    override func awakeFromNib() {
-//        super.awakeFromNib()
-//        // Initialization code
-//    }
-//
-//    override func setSelected(_ selected: Bool, animated: Bool) {
-//        super.setSelected(selected, animated: animated)
-//
-//        // Configure the view for the selected state
-//    }
 }
