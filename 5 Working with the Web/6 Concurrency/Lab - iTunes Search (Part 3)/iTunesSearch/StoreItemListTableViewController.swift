@@ -7,8 +7,10 @@ class StoreItemListTableViewController: UITableViewController {
     @IBOutlet weak var filterSegmentedControl: UISegmentedControl!
     
     // add item controller property
+    let itemController = StoreItemController()
     
-    var items = [String]()
+    // update item array to [StoreItem]
+    var items = [StoreItem]()
     
     let queryOptions = ["movie", "music", "software", "ebook"]
     
@@ -28,10 +30,27 @@ class StoreItemListTableViewController: UITableViewController {
         if !searchTerm.isEmpty {
             
             // set up query dictionary
+            let query = [
+                "term": searchTerm,
+                "media": mediaType,
+                "limit": "10"
+            ]
             
             // use the item controller to fetch items
-            // if successful, use the main queue to set self.items and reload the table view
-            // otherwise, print an error to the console
+            itemController.fetchItems(matching: query, completion: {(items) in
+                
+                DispatchQueue.main.async {
+                    // if successful, use the main queue to set self.items and reload the table view
+                    // otherwise, print an error to the console
+                    if let items = items {
+                        self.items = items
+                        self.tableView.reloadData()
+                    } else {
+                        print("Data did not load.")
+                    }
+                }
+            })
+            
         }
     }
     
@@ -39,9 +58,8 @@ class StoreItemListTableViewController: UITableViewController {
         
         let item = items[indexPath.row]
         
-        cell.textLabel?.text = item
-        
         // set label to the item's name
+        cell.textLabel?.text = item.name
         // set detail label to the item's subtitle
         // reset the image view to the gray image
         
