@@ -61,11 +61,23 @@ class StoreItemListTableViewController: UITableViewController {
         // set label to the item's name
         cell.textLabel?.text = item.name
         // set detail label to the item's subtitle
+        cell.detailTextLabel?.text = item.artist
         // reset the image view to the gray image
+        cell.imageView?.image = #imageLiteral(resourceName: "gray")
         
         // initialize a network task to fetch the item's artwork
-        // if successful, use the main queue capture the cell, to initialize a UIImage, and set the cell's image view's image to the 
+        let task = URLSession.shared.dataTask(with: item.artworkURL) {(data, response, error) in
+            guard let imageData = data else {
+                return 
+            }
+            // if successful, use the main queue capture the cell, to initialize a UIImage, and set the cell's image view's image to the
+            DispatchQueue.main.async {
+                let image = UIImage(data: imageData)
+                cell.imageView?.image = image
+            }
+        }
         // resume the task
+        task.resume()
     }
     
     @IBAction func filterOptionUpdated(_ sender: UISegmentedControl) {
