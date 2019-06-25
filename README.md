@@ -1,11 +1,11 @@
 # App Development with Swift
 
-![swift badge](https://img.shields.io/badge/swift-5-orange.svg) ![progress bar](https://img.shields.io/badge/progress-96%25-ff69b4.svg)
+![swift badge](https://img.shields.io/badge/swift-5-orange.svg)
 
 Labs and guided projects following Apple's [App Development with Swift](https://itunes.apple.com/za/book/app-development-with-swift/id1219117996?mt=11) book.
 
 ## Projects
-### 1 Light
+### 1 Light - Getting Started with App Development
 Single screen app that changes the screen from black to white whenever the user taps a button.
 
 <table>
@@ -94,7 +94,7 @@ Single screen app that changes the screen from black to white whenever the user 
   </tr>
 </table>
 
-### 2 Apple Pie
+### 2 Apple Pie - Introduction to UIKit
 Word guessing game for the iPad in the style of the classic Hangman.
 
 <table>
@@ -204,6 +204,24 @@ Word guessing game for the iPad in the style of the classic Hangman.
         <li>Described the <b>Auto Layout</b> system for constraining views as they relate to other views.</li>
         <li>Demostrated how to add constraints to a view.</li>
         <li>Showed how to use <b>stack view</b> to help manage constraints.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+### 3 Quiz - Navigation and Workflows
+A simple app that guides the user through a personality quiz and displays the results.
+
+<table>
+  <tr>
+    <th>🦅 Swift Lessons</th>
+    <th> Learning outcomes</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td>
+      <ul>
+        <li></li>
       </ul>
     </td>
   </tr>
