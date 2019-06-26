@@ -246,4 +246,13 @@ A simple app that guides the user through a personality quiz and displays the re
       </ul>
     </td>
   </tr>
+  <tr>
+    <td>Constant and Variable Scope</td>
+    <td>
+      <ul>
+        <li>Learned about <b>global</b> and <b>local scope</b>.</li>
+        <li>Demonstrated how to re-use variable names using <b>variable shadowing</b>.</li>
+      </ul>
+    </td>
+  </tr>
 </table>
