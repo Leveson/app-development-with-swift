@@ -218,10 +218,14 @@ A simple app that guides the user through a personality quiz and displays the re
     <th> Learning outcomes</th>
   </tr>
   <tr>
-    <td></td>
+    <td>Optionals</td>
     <td>
       <ul>
-        <li></li>
+        <li>Learned how to create variables or constants that may not have a value.</li>
+        <li>Demonstrated how to <b>force-unwrap</b> an optional value.</li>
+        <li>Showed how to use <b>optional binding</b> to use the value of an optional.</li>
+        <li>Created <b>failable initialisers</b>.</li>
+        <li>Described and explained the proper use of the <b>implicitly unwrapped</b> optionals.
       </ul>
     </td>
   </tr>
