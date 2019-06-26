@@ -225,7 +225,14 @@ A simple app that guides the user through a personality quiz and displays the re
         <li>Demonstrated how to <b>force-unwrap</b> an optional value.</li>
         <li>Showed how to use <b>optional binding</b> to use the value of an optional.</li>
         <li>Created <b>failable initialisers</b>.</li>
-        <li>Described and explained the proper use of the <b>implicitly unwrapped</b> optionals.
+        <li>Described and explained the proper use of the <b>implicitly unwrapped</b> optionals.</li>
+      </ul>
+    </td>
+  </tr>
+  <td>Type Casting and Inspection</td>
+    <td>
+      <ul>
+        <li>Learned how to <b>downcast</b> an object to a particular type before accessing its properties and methods.</li>
       </ul>
     </td>
   </tr>
