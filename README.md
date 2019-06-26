@@ -265,5 +265,18 @@ A simple app that guides the user through a personality quiz and displays the re
       </ul>
     </td>
   </tr>
-
+  <tr>
+    <th>🔨 SDK Lessons</th>
+    <th> Learning outcomes</th>
+  </tr>
+  <tr>
+    <td>Segues and Navigation Controllers</td>
+    <td>
+      <ul>
+        <li>Learned how to use segues to navigate between scenes.</li>
+        <li>Used <code>prepare</code> to move information across view controllers.</li>
+        <li>Identified customisation points for a navigation bar.</li>
+      </ul>
+    </td>
+  </tr>
 </table>
