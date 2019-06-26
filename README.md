@@ -296,4 +296,14 @@ A simple app that guides the user through a personality quiz and displays the re
       </ul>
     </td>
   </tr>
+  <tr>
+    <td>Building Simple Workflows</td>
+    <td>
+      <ul>
+        <li>Learned about the role of the <b>iOS Human Inferface Guidelines</b> as a reference for builing simple feature workflows and navigation hierachies.</li>
+      </ul>
+    </td>
+  </tr>
 </table>
+
+
