@@ -229,10 +229,20 @@ A simple app that guides the user through a personality quiz and displays the re
       </ul>
     </td>
   </tr>
-  <td>Type Casting and Inspection</td>
+  <tr>
+    <td>Type Casting and Inspection</td>
     <td>
       <ul>
         <li>Learned how to <b>downcast</b> an object to a particular type before accessing its properties and methods.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Guard</td>
+    <td>
+      <ul>
+        <li>Described how <code>guard</code> differs from <code>if-let</code> syntax.</li>
+        <li>Demonstrated how to build a function that guards against invalid arguments.</li>
       </ul>
     </td>
   </tr>
