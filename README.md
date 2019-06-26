@@ -255,4 +255,15 @@ A simple app that guides the user through a personality quiz and displays the re
       </ul>
     </td>
   </tr>
+  <tr>
+    <td>Enumerations</td>
+    <td>
+      <ul>
+        <li>Explained why <b>enumerations</b> are a useful tool.</li>
+        <li>Demonstrated how to define enumerations with raw values.</li>
+        <li>Learned how to work with enumerations using the <code>switch</code> statement.</li>
+      </ul>
+    </td>
+  </tr>
+
 </table>
