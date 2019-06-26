@@ -288,4 +288,12 @@ A simple app that guides the user through a personality quiz and displays the re
       </ul>
     </td>
   </tr>
+  <tr>
+    <td>View Controller Life Cycle</td>
+    <td>
+      <ul>
+        <li>Identified the correct events in a view controller life cycle for executing setup and long-running view logic.</li>
+      </ul>
+    </td>
+  </tr>
 </table>
