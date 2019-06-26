@@ -273,9 +273,18 @@ A simple app that guides the user through a personality quiz and displays the re
     <td>Segues and Navigation Controllers</td>
     <td>
       <ul>
-        <li>Learned how to use segues to navigate between scenes.</li>
+        <li>Learned how to use <b>segues</b> to navigate between scenes.</li>
         <li>Used <code>prepare</code> to move information across view controllers.</li>
-        <li>Identified customisation points for a navigation bar.</li>
+        <li>Identified customisation points for a <b>navigation bar</b>.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Tab Bar Controllers</td>
+    <td>
+      <ul>
+        <li>Learned when to use a <b>tab bar controller</b>.</li>
+        <li>Identified customisation points for a tab bar controller.</li>
       </ul>
     </td>
   </tr>
