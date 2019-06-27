@@ -306,4 +306,22 @@ A simple app that guides the user through a personality quiz and displays the re
   </tr>
 </table>
 
-
+### 4 List - Tables and Persistence
+<table>
+  <tr>
+    <th>🦅 Swift Lessons</th>
+    <th> Learning outcomes</th>
+  </tr>
+  <tr>
+    <td>Protocols</td>
+    <td>
+      <ul>
+        <li>Described the purpose of protocols.</li>
+        <li>Demonstrated how to adopt and define a protocol.</li>
+        <li>Used included Swift protocols such as <code>CustomStringConvertible</code>, <code>Equatable</code>, <code>Comparable</code> and <code>Codable</code>.
+        <li>Implemented the delegate pattern using protocols.</li>
+        <li>Learned how to add a default implementation to a protocol function.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
