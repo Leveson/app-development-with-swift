@@ -324,4 +324,16 @@ A simple app that guides the user through a personality quiz and displays the re
       </ul>
     </td>
   </tr>
+  <tr>
+    <th>🔨 SDK Lessons</th>
+    <th> Learning outcomes</th>
+  </tr>
+  <tr>
+    <td>App Anatomy and Life Cycle</td>
+    <td>
+      <ul>
+        <li>Learned how to execute code at different stages of the app life cycle.</li>
+      </ul>
+    </td>
+  </tr>
 </table>
