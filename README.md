@@ -202,7 +202,7 @@ Word guessing game for the iPad in the style of the classic Hangman.
     <td>
       <ul>
         <li>Described the <b>Auto Layout</b> system for constraining views as they relate to other views.</li>
-        <li>Demostrated how to add constraints to a view.</li>
+        <li>Demonstrated how to add constraints to a view.</li>
         <li>Showed how to use <b>stack view</b> to help manage constraints.</li>
       </ul>
     </td>
@@ -300,7 +300,7 @@ A simple app that guides the user through a personality quiz and displays the re
     <td>Building Simple Workflows</td>
     <td>
       <ul>
-        <li>Learned about the role of the <b>iOS Human Inferface Guidelines</b> as a reference for builing simple feature workflows and navigation hierachies.</li>
+        <li>Learned about the role of the <b>iOS Human Interface Guidelines</b> as a reference for building simple feature workflows and navigation hierarchies.</li>
       </ul>
     </td>
   </tr>
@@ -333,6 +333,13 @@ A simple app that guides the user through a personality quiz and displays the re
     <td>
       <ul>
         <li>Learned how to execute code at different stages of the app life cycle.</li>
+      </ul>
+    </td>
+  </tr>
+  <td>Model View Controller</td>
+    <td>
+      <ul>
+        <li>Learned how to use the Model-View-Controller architecture pattern for organising how an app works.</li>
       </ul>
     </td>
   </tr>
