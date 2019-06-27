@@ -343,4 +343,11 @@ A simple app that guides the user through a personality quiz and displays the re
       </ul>
     </td>
   </tr>
+  <td>Scroll Views</td>
+    <td>
+      <ul>
+        <li>Learned when and how to use scroll views with <b>auto layout</b> and <b>stack views</b>.</li>
+      </ul>
+    </td>
+  </tr>
 </table>
