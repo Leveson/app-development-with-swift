@@ -350,4 +350,13 @@ A simple app that guides the user through a personality quiz and displays the re
       </ul>
     </td>
   </tr>
+  <td>Table Views</td>
+    <td>
+      <ul>
+        <li>Learned how to provide dynamic data to a table view.</li>
+        <li>Demonstrated how to respond to user interaction in a table view.</li>
+        <li>Used predefined <code>UITableViewCell</code> styles to customise table views.</li>
+      </ul>
+    </td>
+  </tr>
 </table>
