@@ -307,6 +307,8 @@ A simple app that guides the user through a personality quiz and displays the re
 </table>
 
 ### 4 List - Tables and Persistence
+A task-tracking app that allows the user to add, edit and delete tasks in a familiar master-detail interface.
+
 <table>
   <tr>
     <th>🦅 Swift Lessons</th>
@@ -391,6 +393,16 @@ A simple app that guides the user through a personality quiz and displays the re
         <li>Showed how to present a mail compose view controller.</li>
         <li>Demonstrated how to access and respond to selections in an <b>image picker</b>.</li>
         <li>Showed how to present a Safari view controller.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Building Complex Input Screens</td>
+    <td>
+      <ul>
+        <li>Learned to build custom forms to create new model objects for data entry.</li>
+        <li>Demonstrated how to use a custom protocol and delegate for passing data between view controllers.</li>
+        <li>Used <code>UITableViewDelegate</code> methods to dynamically resize table cells.</li>
       </ul>
     </td>
   </tr>
