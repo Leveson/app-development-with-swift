@@ -336,26 +336,40 @@ A simple app that guides the user through a personality quiz and displays the re
       </ul>
     </td>
   </tr>
-  <td>Model View Controller</td>
+  <tr>
+    <td>Model View Controller</td>
     <td>
       <ul>
         <li>Learned how to use the Model-View-Controller architecture pattern for organising how an app works.</li>
       </ul>
     </td>
   </tr>
-  <td>Scroll Views</td>
+  <tr>
+   <td>Scroll Views</td>
     <td>
       <ul>
         <li>Learned when and how to use scroll views with <b>auto layout</b> and <b>stack views</b>.</li>
       </ul>
     </td>
   </tr>
-  <td>Table Views</td>
+  <tr>
+    <td>Table Views</td>
     <td>
       <ul>
         <li>Learned how to provide dynamic data to a table view.</li>
         <li>Demonstrated how to respond to user interaction in a table view.</li>
         <li>Used predefined <code>UITableViewCell</code> styles to customise table views.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Intermediate Table Views</td>
+    <td>
+      <ul>
+        <li>Learned how to create custom-designed cells.</li>
+        <li>Showed how to use table view editing to enable swipe functionality.</li>
+        <li>Described the use cases of a static table view.</li>
+        <li>Used custom row actions.</li>
       </ul>
     </td>
   </tr>
