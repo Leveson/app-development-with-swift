@@ -373,4 +373,13 @@ A simple app that guides the user through a personality quiz and displays the re
       </ul>
     </td>
   </tr>
+  <tr>
+    <td>Saving Data</td>
+    <td>
+      <ul>
+        <li>Learned how to write and access files in the app's Document directory.</li>
+        <li>Serialised model data to a format that can be saved and used in the app.</li>
+      </ul>
+    </td>
+  </tr>
 </table>
