@@ -382,4 +382,16 @@ A simple app that guides the user through a personality quiz and displays the re
       </ul>
     </td>
   </tr>
+  <tr>
+    <td>System View Controllers</td>
+    <td>
+      <ul>
+        <li>Learned how to present and respond to action in an alert controller.</li>
+        <li>Demonstrated how to present an activity view controller.</li>
+        <li>Showed how to present a mail compose view controller.</li>
+        <li>Demonstrated how to access and respond to selections in an <b>image picker</b>.</li>
+        <li>Showed how to present a Safari view controller.</li>
+      </ul>
+    </td>
+  </tr>
 </table>
