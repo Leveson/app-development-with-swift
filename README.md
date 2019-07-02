@@ -407,3 +407,13 @@ A task-tracking app that allows the user to add, edit and delete tasks in a fami
     </td>
   </tr>
 </table>
+
+### 5 Restaurant - Working with the Web
+The Restaurant app allows the user to browse a customisable menu that fetches information from a web service.
+
+<table>
+  <tr>
+    <th>🦅 Swift Lessons</th>
+    <th> Learning outcomes</th>
+  </tr>
+</table>
