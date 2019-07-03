@@ -416,4 +416,14 @@ The Restaurant app allows the user to browse a customisable menu that fetches in
     <th>🦅 Swift Lessons</th>
     <th> Learning outcomes</th>
   </tr>
+  <tr>
+    <td>Closures</td>
+    <td>
+      <ul>
+        <li>Learned how to define an <b>anonymous function</b> and use <b>syntactic sugar</b>.</li>
+        <li>Demonstrated how to pass a closure as a function argument.</li>
+        <li>Used the <code>sort</code>, <code>filter</code>, <code>reduce</code> and <code>map</code> functions.</li>
+      </ul>
+    </td>
+  </tr>
 </table>
