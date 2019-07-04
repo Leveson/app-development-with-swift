@@ -426,4 +426,12 @@ The Restaurant app allows the user to browse a customisable menu that fetches in
       </ul>
     </td>
   </tr>
+  <tr>
+    <td>Extensions</td>
+    <td>
+      <ul>
+        <li>Learned how to define an extension to add functionality and an initialiser to a predefined type.</li>
+      </ul>
+    </td>
+  </tr>
 </table>
