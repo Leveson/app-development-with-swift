@@ -434,4 +434,8 @@ The Restaurant app allows the user to browse a customisable menu that fetches in
       </ul>
     </td>
   </tr>
+  <tr>
+    <th>🔨 SDK Lessons</th>
+    <th> Learning outcomes</th>
+  </tr>
 </table>
