@@ -438,4 +438,12 @@ The Restaurant app allows the user to browse a customisable menu that fetches in
     <th>🔨 SDK Lessons</th>
     <th> Learning outcomes</th>
   </tr>
+  <tr>
+    <td>Practical Animation</td>
+    <td>
+      <ul>
+        <li>Learned when and how to use animations using <code>UIKit</code> to enhance the user experience.</li>
+      </ul>
+    </td>
+  </tr>
 </table>
