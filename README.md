@@ -446,4 +446,14 @@ The Restaurant app allows the user to browse a customisable menu that fetches in
       </ul>
     </td>
   </tr>
+  <tr>
+    <td>Working with the Web: HTTP and URL Session</td>
+    <td>
+      <ul>
+        <li>Described the basics of the <b>HTTP networking protocol</b>, including commonly used <b>methods</b>, <b>response types</b> and <b>response codes</b>.</li>
+        <li>Learned the different parts a URL and created a URL with <b>query items</b>.</li>
+        <li>Demonstrated how to use the <b>shared URL Session</b> to perform basic HTTP methods for sending and recieving information.</li>
+      </ul>
+    </td>
+  </tr>
 </table>
