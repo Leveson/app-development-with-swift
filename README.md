@@ -1,5 +1,7 @@
 # App Development with Swift
-![](assets/swift_logo.svg)
+<center>
+  <img src="assets/swift_logo.svg">
+</center>
 
 Labs and guided projects following Apple's [App Development with Swift](https://itunes.apple.com/za/book/app-development-with-swift/id1219117996?mt=11) book.
 
@@ -452,6 +454,16 @@ The Restaurant app allows the user to browse a customisable menu that fetches in
         <li>Described the basics of the <b>HTTP networking protocol</b>, including commonly used <b>methods</b>, <b>response types</b> and <b>response codes</b>.</li>
         <li>Learned the different parts a URL and created a URL with <b>query items</b>.</li>
         <li>Demonstrated how to use the <b>shared URL Session</b> to perform basic HTTP methods for sending and receiving information.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Working with the Web: Decoding JSON</td>
+    <td>
+      <ul>
+        <li>Described the <b>JavaScript Object Notation</b> and the role it plays in working with network services.</li>
+        <li>Demonstrated how to use <code>JSONEncoder</code> and <code>JSONDecoder</code> to encode and decode JSON.</li>
+        <li>Showed how to decode JSON data into custom model objects using the <code>Codable</code> protocol.</li>
       </ul>
     </td>
   </tr>
