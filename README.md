@@ -467,4 +467,14 @@ The Restaurant app allows the user to browse a customisable menu that fetches in
       </ul>
     </td>
   </tr>
+  <tr>
+    <td>Working with the Web: Concurrency</td>
+    <td>
+      <ul>
+        <li>Learned best practices for architecting networking code in an application</li>
+        <li>Demonstrated how to use <b>Grand Central Dispatch</b> to direct user interface updates to the main queue.</li>
+        <li>Showed how to display a list of model objects from a network request in a view.</li>
+      </ul>
+    </td>
+  </tr>
 </table>
