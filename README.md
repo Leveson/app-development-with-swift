@@ -1,7 +1,7 @@
 # App Development with Swift
-<center>
+<p align="center">
   <img src="assets/swift_logo.svg">
-</center>
+</p>
 
 Labs and guided projects following Apple's [App Development with Swift](https://itunes.apple.com/za/book/app-development-with-swift/id1219117996?mt=11) book.
 
