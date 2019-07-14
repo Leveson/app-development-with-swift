@@ -503,4 +503,13 @@ The Restaurant app allows the user to browse a customisable menu that fetches in
     </ul>
   </td>
 </tr>
+<tr>
+  <td>Project Planning</td>
+  <td>
+    <ul>
+      <li>Showed how to plan the interface of model data for a specific set of features.</li>
+      <li>Learned how to plan the classes and methods an app will need based on how the data will be created and stored.</li>
+    </ul>
+  </td>
+</tr>
 </table>
