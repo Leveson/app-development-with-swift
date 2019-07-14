@@ -493,4 +493,14 @@ The Restaurant app allows the user to browse a customisable menu that fetches in
     </ul>
   </td>
 </tr>
+<tr>
+  <td>The Design Cycle</td>
+  <td>
+    <ul>
+      <li>Created user personas to assist in making design decisions.</li>
+      <li>Made iterative prototypes that ended in concrete designs.</li>
+      <li>Demonstrated how to conduct user interviews to gather feedback on prototypes.</li>
+    </ul>
+  </td>
+</tr>
 </table>
