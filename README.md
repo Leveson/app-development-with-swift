@@ -478,3 +478,19 @@ The Restaurant app allows the user to browse a customisable menu that fetches in
     </td>
   </tr>
 </table>
+
+### 6 Prototyping and Project Planning
+
+<table>
+<tr>
+  <td>App Personality</td>
+  <td>
+    <ul>
+      <li>Learned how to implement Apple's human interface guidelines in app design.</li>
+      <li>Described the role of branding in creating unique in-app experiences.</li>
+      <li>Explained the role of the launch screen and best practices for customising it.</li>
+      <li>Showed best practices for using system views and controls to brand and stylise an app.</li> 
+    </ul>
+  </td>
+</tr>
+</table>
