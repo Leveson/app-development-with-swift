@@ -9,6 +9,8 @@ Labs and guided projects following Apple's [App Development with Swift](https://
 ### <a href="1 Getting Started/Guided Project - Light/">1 Light - Getting Started with App Development</a>
 Single screen app that changes the screen from black to white whenever the user taps a button.
 
+<img src="assets/light_white.png" height=609> <img src="assets/light_black.png" height=609>
+
 <table>
   <tr>
     <th>🦅 Swift Lessons</th>
@@ -97,6 +99,8 @@ Single screen app that changes the screen from black to white whenever the user 
 
 ### <a href="2 Introduction to UIKit/Guided Project - Apple Pie/">2 Apple Pie - Introduction to UIKit</a>
 Word guessing game for the iPad in the style of the classic Hangman.
+
+<img src="assets/apple_pie_landscape.png" height=682>
 
 <table>
   <tr>
@@ -213,6 +217,8 @@ Word guessing game for the iPad in the style of the classic Hangman.
 ### <a href="3 Navigation and Workflows/Guided Project - PersonalityQuiz/">3 Quiz - Navigation and Workflows</a>
 A simple app that guides the user through a personality quiz and displays the results.
 
+<img src="assets/personality_quiz_landing.png" height=609> <img src="assets/personality_quiz_switch.png" height=609>
+
 <table>
   <tr>
     <th>🦅 Swift Lessons</th>
@@ -309,6 +315,8 @@ A simple app that guides the user through a personality quiz and displays the re
 
 ### <a href="4 Tables and Persistence/Guided Project - List/">4 List - Tables and Persistence</a>
 A task-tracking app that allows the user to add, edit and delete tasks in a familiar master-detail interface.
+
+<img src="assets/list.png" height=609> <img src="assets/list_new.png" height=609>
 
 <table>
   <tr>
@@ -409,8 +417,10 @@ A task-tracking app that allows the user to add, edit and delete tasks in a fami
   </tr>
 </table>
 
-### 5 Restaurant - Working with the Web
+### <a href="5 Working with the Web/Guided Project - Restaurant/">5 Restaurant - Working with the Web</a>
 The Restaurant app allows the user to browse a customisable menu that fetches information from a web service.
+
+<img src="assets/restaurant_entrees.png" height=609> <img src="assets/restaurant_pizza.png" height=609> <img src="assets/restaurant_order.png" height=609>
 
 <table>
   <tr>
@@ -489,7 +499,7 @@ The Restaurant app allows the user to browse a customisable menu that fetches in
       <li>Learned how to implement Apple's human interface guidelines in app design.</li>
       <li>Described the role of branding in creating unique in-app experiences.</li>
       <li>Explained the role of the launch screen and best practices for customising it.</li>
-      <li>Showed best practices for using system views and controls to brand and stylise an app.</li> 
+      <li>Showed best practices for using system views and controls to brand and stylise an app.</li>
     </ul>
   </td>
 </tr>
