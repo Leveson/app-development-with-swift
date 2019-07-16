@@ -15,7 +15,7 @@ Single screen app that changes the screen from black to white whenever the user 
     <th> Learning outcomes</th>
   </tr>
   <tr>
-    <td>Introduction to Swift and Playgrounds</td>
+    <td><a href="1 Getting Started/1 Intro to Swift Playgrounds/">Introduction to Swift and Playgrounds</a></td>
     <td>
         <ul>
             <li>Learned about the features that make Swift a "safe" language such as <b>type safety</b>, <b>type inference</b>, <b>error handling</b> and <b>optionals</b>.</li>
@@ -24,7 +24,7 @@ Single screen app that changes the screen from black to white whenever the user 
     </td>
   </tr>
   <tr>
-    <td>Constants, Variables and Data Types</td>
+    <td><a href="1 Getting Started/2 Constants, Variables, and Data Types/">Constants, Variables and Data Types</a></td>
     <td>
         <ul>
             <li>Learned why most variables should be declared as constants.</li>
@@ -34,7 +34,7 @@ Single screen app that changes the screen from black to white whenever the user 
     </td>
   </tr>
   <tr>
-    <td>Operators</td>
+    <td><a href="1 Getting Started/3 Operators/">Operators</a></td>
     <td>
       <ul>
         <li>Did basic mathematic operations using <code>+</code>, <code>-</code>, <code>×</code>, <code>÷</code> and most notably the remainder/modulo operator <code>%</code>.</li>
@@ -43,7 +43,7 @@ Single screen app that changes the screen from black to white whenever the user 
     </td>
   </tr>
   <tr>
-    <td>Control Flow</td>
+    <td><a href="1 Getting Started/4 Control Flow/">Control Flow</a></td>
     <td>
       <ul>
         <li>Combined <b>boolean expressions</b> with <b>logical operators</b> to convey some logic.</li>
@@ -65,7 +65,7 @@ Single screen app that changes the screen from black to white whenever the user 
     </td>
   </tr>
   <tr>
-    <td>Building, running and debugging an app</td>
+    <td><a href="1 Getting Started/6 Debugging/">Building, running and debugging an app</a></td>
     <td>
       <ul>
         <li>Learned how to run apps using Simulator within the Xcode environment and with a physical device.</li>
@@ -74,7 +74,7 @@ Single screen app that changes the screen from black to white whenever the user 
     </td>
   </tr>
   <tr>
-    <td>Documentation</td>
+    <td><a href="1 Getting Started/7 Documentation/">Documentation</a></td>
     <td>
       <ul>
         <li>Used the documentation browser to look at overviews, symbol descriptions and discussions.</li>
@@ -95,7 +95,7 @@ Single screen app that changes the screen from black to white whenever the user 
   </tr>
 </table>
 
-### 2 Apple Pie - Introduction to UIKit
+### <a href="2 Introduction to UIKit/Guided Project - Apple Pie/">2 Apple Pie - Introduction to UIKit</a>
 Word guessing game for the iPad in the style of the classic Hangman.
 
 <table>
@@ -104,7 +104,7 @@ Word guessing game for the iPad in the style of the classic Hangman.
     <th> Learning outcomes</th>
   </tr>
   <tr>
-    <td>Strings</td>
+    <td><a href="2 Introduction to UIKit/1 Strings/">Strings</a></td>
     <td>
       <ul>
         <li>Did string comparisons.</li>
@@ -114,7 +114,7 @@ Word guessing game for the iPad in the style of the classic Hangman.
     </td>
   </tr>
   <tr>
-    <td>Functions</td>
+    <td><a href="2 Introduction to UIKit/2 Functions/">Functions</a></td>
     <td>
       <ul>
         <li>Built functions with and without return types.</li>
@@ -124,7 +124,7 @@ Word guessing game for the iPad in the style of the classic Hangman.
     </td>
   </tr>
   <tr>
-    <td>Structures</td>
+    <td><a href="2 Introduction to UIKit/3 Structures/">Structures</a></td>
     <td>
       <ul>
         <li>Learned about the role of <b>structures</b> in Swift and how to create one with multiple <b>instance methods</b>.</li>
@@ -136,7 +136,7 @@ Word guessing game for the iPad in the style of the classic Hangman.
     </td>
   </tr>
   <tr>
-    <td>Classes and Inheritance</td>
+    <td><a href="2 Introduction to UIKit/4 Classes and Inheritance/">Classes and Inheritance</a></td>
     <td>
       <ul>
         <li>Outlined the difference between a structure and a class.</li>
@@ -148,7 +148,7 @@ Word guessing game for the iPad in the style of the classic Hangman.
     </td>
   </tr>
   <tr>
-    <td>Collections</td>
+    <td><a href="2 Introduction to UIKit/5 Collections/">Collections</a></td>
     <td>
       <ul>
         <li>Described the difference between <code>let</code> and <code>var</code> when using collection types.</li>
@@ -157,7 +157,7 @@ Word guessing game for the iPad in the style of the classic Hangman.
     </td>
   </tr>
   <tr>
-    <td>Loops</td>
+    <td><a href="2 Introduction to UIKit/6 Loops/">Loops</td>
     <td>
       <ul>
         <li>Demonstrated how to write a <code>for</code> loop to iterate over a <b>range</b> or collection.</li>
@@ -170,7 +170,7 @@ Word guessing game for the iPad in the style of the classic Hangman.
     <th> Learning outcomes</th>
   </tr>
   <tr>
-    <td>Introduction to UIKit</td>
+    <td><a href="2 Introduction to UIKit/7 Introduction to UIKit/">Introduction to UIKit</a></td>
     <td>
       <ul>
         <li>Learned about the standard controls included in the iOS SDK made available in a framework known as <code>UIKit</code>.</li>
@@ -178,7 +178,7 @@ Word guessing game for the iPad in the style of the classic Hangman.
     </td>
   </tr>
   <tr>
-    <td>Displaying Data</td>
+    <td><a href="2 Introduction to UIKit/8 Displaying Data/">Displaying Data</a></td>
     <td>
       <ul>
         <li>Showed how to configure views using Interface Builder.</li>
@@ -188,7 +188,7 @@ Word guessing game for the iPad in the style of the classic Hangman.
     </td>
   </tr>
   <tr>
-    <td>Controls in Action</td>
+    <td><a href="2 Introduction to UIKit/9 Controls in Action/">Controls in Action</a></td>
     <td>
       <ul>
         <li>Learned how to use a <b>button</b>, <b>switch</b>,  and <b>slider</b> to execute code.</li>
@@ -199,7 +199,7 @@ Word guessing game for the iPad in the style of the classic Hangman.
     </td>
   </tr>
   <tr>
-    <td>Auto Layout and Stack Views</td>
+    <td><a href="2 Introduction to UIKit/10 Auto Layout and Stack Views/">Auto Layout and Stack Views</a></td>
     <td>
       <ul>
         <li>Described the <b>Auto Layout</b> system for constraining views as they relate to other views.</li>
@@ -210,7 +210,7 @@ Word guessing game for the iPad in the style of the classic Hangman.
   </tr>
 </table>
 
-### 3 Quiz - Navigation and Workflows
+### <a href="3 Navigation and Workflows/Guided Project - PersonalityQuiz/">3 Quiz - Navigation and Workflows</a>
 A simple app that guides the user through a personality quiz and displays the results.
 
 <table>
@@ -219,7 +219,7 @@ A simple app that guides the user through a personality quiz and displays the re
     <th> Learning outcomes</th>
   </tr>
   <tr>
-    <td>Optionals</td>
+    <td><a href="3 Navigation and Workflows/1 Optionals/">Optionals</a></td>
     <td>
       <ul>
         <li>Learned how to create variables or constants that may not have a value.</li>
@@ -231,7 +231,7 @@ A simple app that guides the user through a personality quiz and displays the re
     </td>
   </tr>
   <tr>
-    <td>Type Casting and Inspection</td>
+    <td><a href="3 Navigation and Workflows/2 Type Casting/">Type Casting and Inspection</a></td>
     <td>
       <ul>
         <li>Learned how to <b>downcast</b> an object to a particular type before accessing its properties and methods.</li>
@@ -239,7 +239,7 @@ A simple app that guides the user through a personality quiz and displays the re
     </td>
   </tr>
   <tr>
-    <td>Guard</td>
+    <td><a href="3 Navigation and Workflows/3 Guard/">Guard</a></td>
     <td>
       <ul>
         <li>Described how <code>guard</code> differs from <code>if-let</code> syntax.</li>
@@ -248,7 +248,7 @@ A simple app that guides the user through a personality quiz and displays the re
     </td>
   </tr>
   <tr>
-    <td>Constant and Variable Scope</td>
+    <td><a href="3 Navigation and Workflows/4 Scope/">Constant and Variable Scope</a></td>
     <td>
       <ul>
         <li>Learned about <b>global</b> and <b>local scope</b>.</li>
@@ -257,7 +257,7 @@ A simple app that guides the user through a personality quiz and displays the re
     </td>
   </tr>
   <tr>
-    <td>Enumerations</td>
+    <td><a href="3 Navigation and Workflows/5 Enumerations/">Enumerations</a></td>
     <td>
       <ul>
         <li>Explained why <b>enumerations</b> are a useful tool.</li>
@@ -271,7 +271,7 @@ A simple app that guides the user through a personality quiz and displays the re
     <th> Learning outcomes</th>
   </tr>
   <tr>
-    <td>Segues and Navigation Controllers</td>
+    <td><a href="3 Navigation and Workflows/6 Segues and Navigation Controllers/">Segues and Navigation Controllers</a></td>
     <td>
       <ul>
         <li>Learned how to use <b>segues</b> to navigate between scenes.</li>
@@ -281,7 +281,7 @@ A simple app that guides the user through a personality quiz and displays the re
     </td>
   </tr>
   <tr>
-    <td>Tab Bar Controllers</td>
+    <td><a href="3 Navigation and Workflows/7 Tab Bar Controllers/">Tab Bar Controllers</a></td>
     <td>
       <ul>
         <li>Learned when to use a <b>tab bar controller</b>.</li>
@@ -290,7 +290,7 @@ A simple app that guides the user through a personality quiz and displays the re
     </td>
   </tr>
   <tr>
-    <td>View Controller Life Cycle</td>
+    <td><a href="3 Navigation and Workflows/8 View Controller Life Cycle/">View Controller Life Cycle</a></td>
     <td>
       <ul>
         <li>Identified the correct events in a view controller life cycle for executing setup and long-running view logic.</li>
@@ -298,7 +298,7 @@ A simple app that guides the user through a personality quiz and displays the re
     </td>
   </tr>
   <tr>
-    <td>Building Simple Workflows</td>
+    <td><a href="3 Navigation and Workflows/9 Building Simple Workflows/">Building Simple Workflows</a></td>
     <td>
       <ul>
         <li>Learned about the role of the <b>iOS Human Interface Guidelines</b> as a reference for building simple feature workflows and navigation hierarchies.</li>
@@ -307,7 +307,7 @@ A simple app that guides the user through a personality quiz and displays the re
   </tr>
 </table>
 
-### 4 List - Tables and Persistence
+### <a href="4 Tables and Persistence/Guided Project - List/">4 List - Tables and Persistence</a>
 A task-tracking app that allows the user to add, edit and delete tasks in a familiar master-detail interface.
 
 <table>
@@ -316,7 +316,7 @@ A task-tracking app that allows the user to add, edit and delete tasks in a fami
     <th> Learning outcomes</th>
   </tr>
   <tr>
-    <td>Protocols</td>
+    <td><a href="4 Tables and Persistence/1 Protocols/">Protocols</a></td>
     <td>
       <ul>
         <li>Described the purpose of protocols.</li>
@@ -332,7 +332,7 @@ A task-tracking app that allows the user to add, edit and delete tasks in a fami
     <th> Learning outcomes</th>
   </tr>
   <tr>
-    <td>App Anatomy and Life Cycle</td>
+    <td><a href="4 Tables and Persistence/2 App Anatomy and Life Cycle/">App Anatomy and Life Cycle</a></td>
     <td>
       <ul>
         <li>Learned how to execute code at different stages of the app life cycle.</li>
@@ -340,7 +340,7 @@ A task-tracking app that allows the user to add, edit and delete tasks in a fami
     </td>
   </tr>
   <tr>
-    <td>Model View Controller</td>
+    <td><a href="4 Tables and Persistence/3 Model View Controller/">Model View Controller</a></td>
     <td>
       <ul>
         <li>Learned how to use the Model-View-Controller architecture pattern for organising how an app works.</li>
@@ -348,7 +348,7 @@ A task-tracking app that allows the user to add, edit and delete tasks in a fami
     </td>
   </tr>
   <tr>
-   <td>Scroll Views</td>
+   <td><a href="4 Tables and Persistence/4 Scroll Views/">Scroll Views</a></td>
     <td>
       <ul>
         <li>Learned when and how to use scroll views with <b>auto layout</b> and <b>stack views</b>.</li>
@@ -356,7 +356,7 @@ A task-tracking app that allows the user to add, edit and delete tasks in a fami
     </td>
   </tr>
   <tr>
-    <td>Table Views</td>
+    <td><a href="4 Tables and Persistence/5 Table Views/">Table Views</a></td>
     <td>
       <ul>
         <li>Learned how to provide dynamic data to a table view.</li>
@@ -366,7 +366,7 @@ A task-tracking app that allows the user to add, edit and delete tasks in a fami
     </td>
   </tr>
   <tr>
-    <td>Intermediate Table Views</td>
+    <td><a href="4 Tables and Persistence/6 Intermediate Table Views/">Intermediate Table Views</a></td>
     <td>
       <ul>
         <li>Learned how to create custom-designed cells.</li>
@@ -377,7 +377,7 @@ A task-tracking app that allows the user to add, edit and delete tasks in a fami
     </td>
   </tr>
   <tr>
-    <td>Saving Data</td>
+    <td><a href="4 Tables and Persistence/7 Saving Data/">Saving Data</a></td>
     <td>
       <ul>
         <li>Learned how to write and access files in the app's Document directory.</li>
@@ -386,7 +386,7 @@ A task-tracking app that allows the user to add, edit and delete tasks in a fami
     </td>
   </tr>
   <tr>
-    <td>System View Controllers</td>
+    <td><a href="4 Tables and Persistence/8 System View Controllers/">System View Controllers</a></td>
     <td>
       <ul>
         <li>Learned how to present and respond to action in an alert controller.</li>
@@ -398,7 +398,7 @@ A task-tracking app that allows the user to add, edit and delete tasks in a fami
     </td>
   </tr>
   <tr>
-    <td>Building Complex Input Screens</td>
+    <td><a href="4 Tables and Persistence/9 Building Complex Input Screens/">Building Complex Input Screens</a></td>
     <td>
       <ul>
         <li>Learned to build custom forms to create new model objects for data entry.</li>
@@ -418,7 +418,7 @@ The Restaurant app allows the user to browse a customisable menu that fetches in
     <th> Learning outcomes</th>
   </tr>
   <tr>
-    <td>Closures</td>
+    <td><a href="5 Working with the Web/1 Closures/">Closures</a></td>
     <td>
       <ul>
         <li>Learned how to define an <b>anonymous function</b> and use <b>syntactic sugar</b>.</li>
@@ -428,7 +428,7 @@ The Restaurant app allows the user to browse a customisable menu that fetches in
     </td>
   </tr>
   <tr>
-    <td>Extensions</td>
+    <td><a href="5 Working with the Web/2 Extensions/">Extensions</a></td>
     <td>
       <ul>
         <li>Learned how to define an extension to add functionality and an initialiser to a predefined type.</li>
@@ -440,7 +440,7 @@ The Restaurant app allows the user to browse a customisable menu that fetches in
     <th> Learning outcomes</th>
   </tr>
   <tr>
-    <td>Practical Animation</td>
+    <td><a href="5 Working with the Web/3 Practical Animation/">Practical Animation</a></td>
     <td>
       <ul>
         <li>Learned when and how to use animations using <code>UIKit</code> to enhance the user experience.</li>
@@ -448,7 +448,7 @@ The Restaurant app allows the user to browse a customisable menu that fetches in
     </td>
   </tr>
   <tr>
-    <td>Working with the Web: HTTP and URL Session</td>
+    <td><a href="5 Working with the Web/4 HTTP and URL Session/">Working with the Web: HTTP and URL Session</a></td>
     <td>
       <ul>
         <li>Described the basics of the <b>HTTP networking protocol</b>, including commonly used <b>methods</b>, <b>response types</b> and <b>response codes</b>.</li>
@@ -458,7 +458,7 @@ The Restaurant app allows the user to browse a customisable menu that fetches in
     </td>
   </tr>
   <tr>
-    <td>Working with the Web: Decoding JSON</td>
+    <td><a href="5 Working with the Web/5 Decoding JSON/">Working with the Web: Decoding JSON</a></td>
     <td>
       <ul>
         <li>Described the <b>JavaScript Object Notation</b> and the role it plays in working with network services.</li>
@@ -468,7 +468,7 @@ The Restaurant app allows the user to browse a customisable menu that fetches in
     </td>
   </tr>
   <tr>
-    <td>Working with the Web: Concurrency</td>
+    <td><a href="5 Working with the Web/6 Concurrency/">Working with the Web: Concurrency</a></td>
     <td>
       <ul>
         <li>Learned best practices for architecting networking code in an application</li>
@@ -483,7 +483,7 @@ The Restaurant app allows the user to browse a customisable menu that fetches in
 
 <table>
 <tr>
-  <td>App Personality</td>
+  <td><a href="6 Prototyping and Project Planning/1 App Personality/">App Personality</a></td>
   <td>
     <ul>
       <li>Learned how to implement Apple's human interface guidelines in app design.</li>
