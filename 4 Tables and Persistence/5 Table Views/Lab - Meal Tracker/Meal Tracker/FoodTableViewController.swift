@@ -50,7 +50,7 @@ class FoodTableViewController: UITableViewController {
         
         let meal = meals[indexPath.section]
         let food = meal.food[indexPath.row]
-        
+    
         cell.textLabel?.text = food.name
         cell.detailTextLabel?.text = food.description
 
